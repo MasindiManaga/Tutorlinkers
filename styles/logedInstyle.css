@@ -1,0 +1,121 @@
+.left button {
+    margin: 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 150%;
+    text-align: center;
+
+}
+.left{
+    display: flex;
+}
+
+.btns img{
+    margin-right: 7px;
+}
+.line{
+    background-color: #77868dcb;
+    width: 0.5px;
+    height: 3em;
+}
+.left button:hover {
+    color: #77868dcb;
+    transition: ease-in-out;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    height: 90px;
+}
+
+.backgroud {
+    text-align: center;
+}
+
+
+.divider{
+
+    background-color: rgba(94, 89, 89, 0.411);
+    height: 1.5px;
+}
+
+.course-card {
+    background-color: #757575;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 16px;
+    width: 400px;
+    max-height: 350px;
+    color: #757575;
+}
+ 
+.course-card h3 {
+    color: #757575;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+ 
+.course-card .pgn__card-header-title-md a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.course-card .pgn__card-header-title-md a:hover {
+    text-decoration: underline;
+}
+ 
+.pgn__card-wrapper-image-cap img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+ 
+.pgn__card-body {
+    padding-top: 8px;
+    /* background-color: aqua; */
+}
+
+.pgn__card-section span {
+    color: #fff;
+    font-size: 0.875rem;
+}
+ 
+.course-card-banners {
+    background-color:#757575 ;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 16px;
+    padding: 8px 16px;
+}
+ 
+.course-card-banners .alert-message-content {
+    color: #fff;
+    font-size: 0.875rem;
+}
+ 
+.related-programs-list-container li {
+    list-style: none;
+    padding: 4px 0;
+}
+ 
+.related-programs-list-container li a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.related-programs-list-container li a:hover {
+    text-decoration: underline;
+}
+ 
+.backgroud_{
+    margin-left: 40px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #ebe9e92a;
+    padding: 20px;
+   
+}

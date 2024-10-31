@@ -1,0 +1,113 @@
+
+.backgroud_{
+        display: flex;
+        padding: 0.5em;
+       
+}
+.backgroud2_{
+       
+        background-color: #c7cccf11;
+        width: 100%;
+}
+
+.video{
+    margin: 5%;
+}
+#offLine_player{
+
+    width: 400%;
+    display: none;
+
+}
+.divider{
+
+    background-color:rgba(94, 89, 89, 0.411);
+    height: 1.5px;
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+
+button{
+border-radius: 7px;
+border-color: #bdbdbd;
+margin-top: 10px;
+background-color: #BDBDBD;
+color: #000000;
+padding: 7px;
+
+}
+
+#youTube{
+    width: 400%;
+    height: 110%;
+}
+.left button {
+    margin: 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 150%;
+    text-align: center;
+
+}
+
+.disclaimer{
+    background-color: aqua;
+    width: 50%;
+}
+.topic_container{
+
+    background-color: #757575;
+    width: 17em;
+}
+
+li {
+    list-style: none;
+    
+
+}
+
+ul h3 {
+    text-decoration: none;
+    color: #fff;
+    
+}
+ul h4 {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+ul {
+    display: block;
+}
+
+div {
+    width: 15%;
+}
+
+.topics a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn{
+    text-align: center;
+
+    width: 100%;
+}
+
+.btn button {
+
+    font-size: large;
+  
+    margin-bottom: 1%;
+    background-color: #77868dcb;
+    color: #fff;
+    border-radius: 10px;
+    padding: 7px;
+    border-color: #77868dcb;
+
+}
