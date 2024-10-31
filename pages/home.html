@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning Made Simple</title>
+        <link rel="stylesheet" href="/styles/style.css">
+        <script src="/scripts/index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class = "nav">
+            <img src="/icons/file.png" alt="Logo">
+            <span class="left">
+
+                <button class="explore" href="#">Explore</button>
+                
+                <input type="text" placeholder="Find Courses" id = "Search">
+            </span>
+
+            <span class="links">
+                <a href="#">Resources</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+
+            </span>
+
+            <span  class="btns">
+                <button id = "btn1" onclick=" sing()">Sign In</button>
+                <button id = "btn2">Register</button>
+            </span>
+
+        </nav>
+
+    </header>
+    <div class="divider"></div>
+    <div class="slogan">
+
+        <h1 id="slogan1">Learning Made Simple</h1>
+        <h2 id="slogan2">Made Smart</h2>
+    </div>
+    <main>
+        <section class="popular-topics">
+            <h3>Popular Topics</h3>
+            <div class="topic-container">
+
+                <table>
+                
+                    <tr>
+                        <td><button onclick = "openCourse('Math')">Math</button></td>
+                        <td><button onclick = "openCourse('Professional Writings')">Professional Writings</button></td>
+                        <td><button onclick = "openCourse('Computer Programming')">Computer Programming</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick = "openCourse('Physics')">Physics</button></td>
+                        <td><button onclick = "openCourse('Economics')">Economics</button></td>
+                        <td><button onclick = "openCourse('Finance')">Finance</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick = "openCourse('AI')">AI</button></td>
+                        <td><button onclick = "openCourse('Agriculture')">Agriculture</button></td>
+                        <td><button onclick = "openCourse('Entrepreneurship')">Entrepreneurship</button></td>
+                    </tr>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <div class="divider"></div>
+    <footer class="footer">
+        <table class="table">
+            
+                
+            <tr class="headings" id="logos">
+                
+                    
+                    <td><h2>Tutorlinkers</h2></td>
+                    <td><h2>Connect</h2></td>
+                    <td><h2>Legal</h2></td>
+                
+            </tr>
+            
+
+            <tr class="row">
+
+                <td><a href="">About</a></td>
+                <td><a href="">Contact us</a></td>
+                <td><a href="">Terms and conditions</a></td>
+
+            </tr>
+            <tr class="row">
+                <td><P></P></td>
+                
+                <td><a href="">Help center</a></td>
+                <td><a href="">policy</a></td>
+            </tr>
+            <tr class="icons">
+                <td><a href="#"><img src="/icons/instagram.png" alt="Instagram"></a></td>
+                    <td><a href="#"><img src="/icons/youTube.png" alt="YouTube Channel" width="20" ></a></td>
+                    <td><a href="#"><img src="/icons/linkeIn-removebg-preview.png" alt="LinkedIn" width="40"></a></td>
+            </tr>
+
+        </table>
+
+    </footer>
+
+
+</body>
+
+</html>

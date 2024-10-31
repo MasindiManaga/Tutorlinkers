@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Made Simple</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/video_styling.css">
+    <script src="/scripts/videos.js"></script>
+</head>
+
+<body onload="load(openLink(getGroupLinks('MATH'),0))">
+
+    <header>
+        <nav class="nav">
+            <span class="left">
+
+                <button id="home" onclick="back()">Home</button>
+
+            </span>
+
+
+            <span class="btns">
+                <img src="/icons/profile-removebg-preview.png" alt="profile" width="60" />
+            </span>
+
+        </nav>
+
+    </header>
+    <div class="divider"></div>
+    <div class="backgroud2_">
+        <span class="backgroud_">
+
+            <div class="topic_container">
+                <ul class="nav__topics">
+                    <li>
+                        <h3>
+                            <span>Math:</span>
+                        </h3>
+                        <ul>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('MATH'),0))">Calculus</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('MATH'),1))">Stats and Probability</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('MATH'),2))">Linear Algebra</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>AI:</span>
+                        </h3>
+                        <ul>
+                            <li>
+                                <button
+                                    onclick="load('https://www.youtube.com/embed/i_LwzRVP7bg?si=hjJRDPk4hluVSYXI')">Machine
+                                    Learning</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),1))">Deep Learning</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),2))">NLP</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>Computer Programming:</span>
+                        </h3>
+                        <ul>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),0))">Java</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),0))">Python</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),0))">C++</button>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>Finance:</span>
+                        </h3>
+                        <ul>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),0))">Management Accounting</button>
+                            </li>
+                            <li>
+                                <button onclick="load(openLink(getGroupLinks('AL'),0))">Financial Mathematics</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="video">
+                <video id="offLine_player" controls>
+                    <source src="./data/Machine_Learning_for_Everybody_–_Full_Course(480p).mp4" type="video/mp4">
+                    "https://www.youtube.com/embed/i_LwzRVP7bg?si=hjJRDPk4hluVSYXI"
+                    "https://www.youtube.com/embed/I3GWzXRectE"
+                </video>
+                <iframe id="youTube" src="https://www.youtube.com/embed/I3GWzXRectE" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+            </div>
+            <!-- <div class="disclaimer">
+            <p>DISCLAIMER!</p>
+            <p>The following content is outsourced from various sources and is completely not owned by us</p>
+        </div> -->
+        </span>
+        <div class="btn">
+            <button onclick="alert('Download Complete!')">Download</button>
+
+        </div>
+    </div>
+    <div class="divider"></div>
+    <footer class="footer">
+        <table class="table">
+
+
+            <tr class="headings" id="logos">
+
+
+                <td>
+                    <h2>Tutorlinkers</h2>
+                </td>
+                <td>
+                    <h2>Connect</h2>
+                </td>
+                <td>
+                    <h2>Legal</h2>
+                </td>
+
+            </tr>
+
+
+            <tr class="row">
+
+                <td><a href="">About</a></td>
+                <td><a href="">Contact us</a></td>
+                <td><a href="">Terms and conditions</a></td>
+
+            </tr>
+            <tr class="row">
+                <td>
+                    <P></P>
+                </td>
+
+                <td><a href="">Help center</a></td>
+                <td><a href="">policy</a></td>
+            </tr>
+            <tr class="icons">
+                <td><a href="#"><img src="/icons/instagram.png" alt="Instagram"></a></td>
+                <td><a href="#"><img src="/icons/youTube.png" alt="YouTube Channel" width="20"></a></td>
+                <td><a href="#"><img src="/icons/linkeIn-removebg-preview.png" alt="LinkedIn" width="40"></a></td>
+            </tr>
+
+        </table>
+
+    </footer>
+
+</body>
+
+</html>
